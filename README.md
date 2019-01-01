@@ -8,11 +8,26 @@
     `pip install docker-compose`
 
 
-2. Docker 설치
+2. Docker 설치(설치되어 있으면 패쓰~)
 
-     `sudo curl -sSL get.docker.com | sh`
+    `sudo curl -sSL get.docker.com | sh`
     
-    详细步骤参照： [https://docs.docker.com/install/](https://docs.docker.com/install/)
+    `sudo apt-get update`
+    
+    `sudo apt-get install docker-ce`
+    
+    [특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함]
+    [아래의 명령어는 사용 가능한 버전을 조회하기 위함]
+    
+    `apt-cache madison docker-ce`
+    
+    
+    
+    
+    
+    
+    
+    더 자세한 사항： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
 ### Windows 环境
 
