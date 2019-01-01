@@ -24,21 +24,25 @@
     
     (조회 결과 예시) 
     
-    `docker-ce | 18.09.0~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages`
+    `docker-ce | 5:18.09.0~3-0~ubuntu-bionic | https://download.docker.com/linux/ubuntu bionic/edge amd64 Packages`
     
-    위의 예시에서 사용가능한 버전의 이름은 `18.09.0~ce-0~ubuntu` 이다.
+    위의 예시에서 사용가능한 버전의 이름은 `5:18.09.0~3-0~ubuntu-bionic` 이다.
     
-    -버전의 이름 아래 명령문의 `<VERSION>`에 입력
+    -버전의 이름을 아래 명령문의 `<VERSION>`에 입력
     
     `$ sudo apt-get install docker-ce=<VERSION>`
     
     (입력 예시)
-    `$ sudo apt-get install docker-ce=18.09.0~ce-0~ubuntu`
+    `$ sudo apt-get install docker-ce=5:18.09.0~3-0~ubuntu-bionic`
+    
+    -도커 설치 완료, 정상적으로 설치가 되었는지 확인
+    
+    `$ sudo docker run hello-world`
     
     
     
     
-    
+
     
     
     더 자세한 사항： [https://docs.docker.com/install/](https://docs.docker.com/install/)
