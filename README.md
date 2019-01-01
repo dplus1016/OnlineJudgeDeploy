@@ -50,7 +50,7 @@
        This message shows that your installation appears to be working correctly.
        
      
-    더 자세한 사항은 사이트 ： [https://docs.docker.com/install/](https://docs.docker.com/install/)
+    더 자세한 사항은 사이트  ： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
 ### Windows 环境
 
