@@ -1,18 +1,16 @@
-## 环境准备
 
-### Linux 环境
+### Linux(18.04 LTS)
 
-1. 安装必要的依赖
+1. 환경 구성
 
-    ```bash
-    sudo apt-get update && sudo apt-get install -y vim python-pip curl git
-    pip install docker-compose
-    ```
+    `sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
+    
+    `pip install docker-compose`
 
-2. 安装 Docker 
 
-    国内用户使用脚本一键安装: `sudo curl -sSL https://get.daocloud.io/docker | sh`  
-    国外用户使用脚本一键安装: `sudo curl -sSL get.docker.com | sh`
+2. Docker 설치
+
+     `sudo curl -sSL get.docker.com | sh`
     
     详细步骤参照： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
