@@ -45,11 +45,10 @@
     
       -만약, 아래와 같은 메시지가 나타나면 정상적으로 설치가 된 것임
     
-       ```bash
        Hello from Docker!
     
        This message shows that your installation appears to be working correctly.
-       ```
+       
      
     더 자세한 사항은 사이트 ： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
