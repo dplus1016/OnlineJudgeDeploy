@@ -3,24 +3,24 @@
 
 1. 환경 구성
 
-    `sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
+    `$ sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
     
-    `pip install docker-compose`
+    `$ pip install docker-compose`
 
 
 2. Docker 설치(설치되어 있으면 패쓰~)
 
-    `sudo curl -sSL get.docker.com | sh`
+    `$ sudo curl -sSL get.docker.com | sh`
     
-    `sudo apt-get update`
+    `$ sudo apt-get update`
     
-    `sudo apt-get install docker-ce`
+    `$ sudo apt-get install docker-ce`
     
     -특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함
     
     -아래의 명령문은 사용 가능한 버전을 조회하기 위함
     
-    `apt-cache madison docker-ce`
+    `$ apt-cache madison docker-ce`
     
     (조회 결과 예시) 
     
@@ -30,7 +30,10 @@
     
     -버전의 이름 아래 명령문의 `<VERSION>`에 입력
     
-    `sudo apt-get install docker-ce=<VERSION>`
+    `$ sudo apt-get install docker-ce=<VERSION>`
+    
+    (입력 예시)
+    `$ sudo apt-get install docker-ce=18.09.0~ce-0~ubuntu`
     
     
     
