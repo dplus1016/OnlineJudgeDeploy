@@ -17,9 +17,18 @@
     `sudo apt-get install docker-ce`
     
     [특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함]
-    [아래의 명령어는 사용 가능한 버전을 조회하기 위함]
+    
+    [아래의 명령문은 사용 가능한 버전을 조회하기 위함]
     
     `apt-cache madison docker-ce`
+    
+    (예) docker-ce | 18.09.0~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+    
+    위의 예시에서 사용가능한 버전의 이름은 [18.09.0~ce-0~ubuntu] 이다.
+    
+    [버전의 이름 아래 명령문의 <VERSION>에 입력]
+    
+    `sudo apt-get install docker-ce=<VERSION>`
     
     
     
