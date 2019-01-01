@@ -8,6 +8,7 @@
     `$ pip install docker-compose`
 
 
+
 2. Docker 설치(설치되어 있으면 패쓰~)
 
     @ 아래의 명령문을 순서대로 실행
@@ -44,9 +45,9 @@
     
      -만약, 아래와 같은 메시지가 나타나면 정상적으로 설치가 된 것임
     
-    `Hello from Docker!
+    `Hello from Docker!`
     
-     This message shows that your installation appears to be working correctly.`
+    `This message shows that your installation appears to be working correctly.``
      
      
     
