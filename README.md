@@ -52,27 +52,17 @@
      
     도커 사이트 참조 ： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
--
+---
 
-## 开始安装
+3. 온라인저지 설치
 
-1. 请选择磁盘空间富余的位置，运行下面的命令
+    (1) 아래의 명령문을 순서대로 실행
 
-    ```bash
-    git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
-    ```
+    `$ git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy`
 
-2. 启动服务
+    `$ sudo -E docker-compose up -d`
 
-    ```bash
-    docker-compose up -d
-    ```
 
-    > 对于非root用户，请用 `sudo -E docker-compose up -d`，否则不会传递当前的 `$PWD` 环境变量。
-
-根据网速情况，大约5到30分钟就可以自动搭建完成，全程无需人工干预。
-
-等命令执行完成，然后运行 `docker ps -a`，当看到所有的容器的状态没有 `unhealthy` 或 `Exited (x) xxx` 就代表 OJ 已经启动成功。
 
 ## 尽情享用吧
 
