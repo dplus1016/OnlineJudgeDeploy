@@ -10,41 +10,42 @@
 
 2. Docker 설치(설치되어 있으면 패쓰~)
 
-  1) 아래의 명령문을 순서대로 실행
+    @ 아래의 명령문을 순서대로 실행
 
     `$ sudo curl -sSL get.docker.com | sh`
-    
+
     `$ sudo apt-get update`
     
     `$ sudo apt-get install docker-ce`
     
     
-  2) 특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함
+    @ 특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함
     
-    -아래의 명령문은 사용 가능한 버전을 조회하기 위함
+     -아래의 명령문은 사용 가능한 버전을 조회하기 위함
     
     `$ apt-cache madison docker-ce`
     
-    (조회 결과 예시) 
+     (조회 결과 예시) 
     
     `docker-ce | 5:18.09.0~3-0~ubuntu-bionic | https://download.docker.com/linux/ubuntu bionic/edge amd64 Packages`
     
-    -위의 예시에서 사용가능한 버전의 이름은 `5:18.09.0~3-0~ubuntu-bionic` 이다.
+     -위의 예시에서 사용가능한 버전의 이름은 `5:18.09.0~3-0~ubuntu-bionic` 이다.
     
-  3) 버전의 이름을 아래 명령문의 `<VERSION>`에 입력
+    @ 버전의 이름을 아래 명령문의 `<VERSION>`에 입력
     
     `$ sudo apt-get install docker-ce=<VERSION>`
     
     (입력 예시)
     `$ sudo apt-get install docker-ce=5:18.09.0~3-0~ubuntu-bionic`
     
-  4) 도커 설치 완료, 정상적으로 설치가 되었는지 확인
+    @ 도커 설치 완료, 정상적으로 설치가 되었는지 확인
     
     `$ sudo docker run hello-world`
     
-    -만약, 아래와 같은 메시지가 나타나면 정상적으로 설치가 된 것임
+     -만약, 아래와 같은 메시지가 나타나면 정상적으로 설치가 된 것임
     
     `Hello from Docker!
+    
      This message shows that your installation appears to be working correctly.`
      
      
