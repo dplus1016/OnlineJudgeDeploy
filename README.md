@@ -6,9 +6,9 @@
     `$ sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
     
     `$ pip install docker-compose`
-
-
-
+     
+---
+     
 2. Docker 설치(설치되어 있으면 패쓰~)
 
     @ 아래의 명령문을 순서대로 실행
