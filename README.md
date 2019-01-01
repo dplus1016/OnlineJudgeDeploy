@@ -67,8 +67,11 @@
 4. 사이트 확인
 
     (1) 관리자 ID: `root` / PW: `rootroot`
+    
     (2) 관리자 계정으로 접속 하신 후에 비밀번호 다시 설정
 
 ---
 
+5. 사이트 한글화 작업(Frontend 수정)
 
+    https://github.com/dplus1016/OnlineJudgeFE
