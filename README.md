@@ -22,8 +22,6 @@
 
 3. 온라인저지 사이트 설치
 
-    (1) 아래의 명령문을 순서대로 실행
-
     `$ git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy`
     
     `$ sudo apt install docker-compose`
