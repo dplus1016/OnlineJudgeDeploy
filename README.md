@@ -3,21 +3,21 @@
 
 1. 환경 구성
  
-    `$ sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
-    
-    `$ sudo pip install docker-compose`
-    
+    `$ sudo apt-get update`
+    `$ sudo apt-get install -y vim python-pip curl git`
 ---
      
 2. Docker 설치(설치되어 있으면 패쓰~)
 
     (1) 아래의 명령문을 순서대로 실행
+    
+      `$ sudo pip install docker-compose`
 
       `$ sudo curl -sSL get.docker.com | sh`
 
       `$ sudo apt-get update`
     
-      `$ sudo apt-get install docker-ce`
+      `$ sudo apt-get install docker-ce` -- 설치가 안되면, `$ sudo apt-get install docker`
     
     
     (2) 특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함
