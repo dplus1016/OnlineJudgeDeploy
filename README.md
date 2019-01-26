@@ -14,24 +14,10 @@
     
       `$ sudo pip install docker-compose`
       
-      
-      
-      
-      `$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common`
-      
-      `$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-      
-      `$ sudo apt-key fingerprint 0EBFCD88`
-      
       `$ sudo apt-get update`
       
-      `$ sudo curl -sSL get.docker.com | sh` //실패
+      `$ sudo curl -sSL get.docker.com | sh`
 
-      `$ sudo apt-get update`
-    
-      `$ sudo apt-get install docker-ce` -- 설치가 안되면, `$ sudo apt-get install docker`
-    
-    
     (2) 특정 버전의 도커를 설치하려면, 사용 가능한 버전을 조회한 후에 선택하여 설치해야 함
     
       -아래의 명령문은 사용 가능한 버전을 조회하기 위함
