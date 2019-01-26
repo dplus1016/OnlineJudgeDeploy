@@ -5,7 +5,7 @@
 
     `$ sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
     
-    `$ pip install docker-compose` -- 만약, Command 'pip' not found 에러가 나온다면, `$ sudo apt install python-pip` 를 실행한 후에 다시 
+    `$ pip install docker-compose` -- 만약, Command 'pip' not found 에러가 나온다면, `$ sudo apt install python-pip` 를 실행한 후에 다시  
     
     
      
