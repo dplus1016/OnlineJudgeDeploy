@@ -8,9 +8,14 @@
     `$ sudo apt-get install -y vim python-pip curl git`
 ---
      
-2. Docker 설치(설치되어 있으면 패쓰~)
+2. Docker 설치
 
     (1) 아래의 명령문을 순서대로 실행
+    
+      `$ sudo pip install docker-compose`
+      
+      
+      
       
       `$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common`
       
@@ -20,11 +25,7 @@
       
       `$ sudo apt-get update`
       
-      
-    
-      `$ sudo pip install docker-compose`
-
-      `$ sudo curl -sSL get.docker.com | sh`
+      `$ sudo curl -sSL get.docker.com | sh` //실패
 
       `$ sudo apt-get update`
     
