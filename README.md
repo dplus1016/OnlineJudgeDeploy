@@ -4,6 +4,7 @@
 1. 환경 구성
  
     `$ sudo apt-get update`
+    
     `$ sudo apt-get install -y vim python-pip curl git`
 ---
      
