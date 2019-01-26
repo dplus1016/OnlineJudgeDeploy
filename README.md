@@ -60,7 +60,7 @@
 
     `$ git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy`
     
-    `$ sudo apt install docker-compose
+    `$ sudo apt install docker-compose`
 
     `$ sudo -E docker-compose up -d`
     
