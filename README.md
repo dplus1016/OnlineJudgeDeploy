@@ -10,7 +10,7 @@
      
 2. Docker 설치
 
-- 아래의 명령문을 순서대로 실행
+   - 아래의 명령문을 순서대로 실행
     
       `$ sudo pip install docker-compose`
       
