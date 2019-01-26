@@ -59,9 +59,13 @@
     (1) 아래의 명령문을 순서대로 실행
 
     `$ git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy`
+    
+    `$ sudo apt install docker-compose
 
     `$ sudo -E docker-compose up -d`
-
+    
+    사이트 설치 완료 --> 웹 브라우저로 접속... 주소는 127.0.0.1 혹은 0.0.0.0
+    
 ---
 
 4. 사이트 확인
