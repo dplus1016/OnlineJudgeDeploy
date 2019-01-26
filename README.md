@@ -9,14 +9,12 @@
 ---
      
 2. Docker 설치
-
-   - 아래의 명령문을 순서대로 실행
     
-      `$ sudo pip install docker-compose`
+    `$ sudo pip install docker-compose`
       
-      `$ sudo apt-get update`
+    `$ sudo apt-get update`
       
-      `$ sudo curl -sSL get.docker.com | sh`
+    `$ sudo curl -sSL get.docker.com | sh` -- 원클릭 도커 설치
     
     도커 사이트 참조 ： [https://docs.docker.com/install/](https://docs.docker.com/install/)
 
