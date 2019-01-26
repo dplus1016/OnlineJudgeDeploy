@@ -3,14 +3,14 @@
 
 1. 환경 구성
 
+    `$ sudo apt install curl`
+ 
     `$ sudo apt-get update && sudo apt-get install -y vim python-pip curl git`
     
     `$ sudo pip install docker-compose` 
     
     - 만약, Command 'pip' not found 에러가 나온다면, `$ sudo apt install python-pip` 를 실행한 후에 다시 실행
     
-    
-     
 ---
      
 2. Docker 설치(설치되어 있으면 패쓰~)
