@@ -10,6 +10,16 @@
 2. Docker 설치(설치되어 있으면 패쓰~)
 
     (1) 아래의 명령문을 순서대로 실행
+      
+      `$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common`
+      
+      `$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+      
+      `$ sudo apt-key fingerprint 0EBFCD88`
+      
+      `$ sudo apt-get update`
+      
+      
     
       `$ sudo pip install docker-compose`
 
