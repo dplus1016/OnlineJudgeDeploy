@@ -1,5 +1,5 @@
 
-### Linux(18.04 LTS)에 설치하는 방법
+## Linux(18.04 LTS)에 설치하는 방법
 
 1. 환경 구성
  
@@ -42,6 +42,6 @@
 
 ---
 
-5. 사이트 한글화 작업(Frontend 수정)
+## 사이트 한글화 작업(Frontend 수정)
 
     https://github.com/dplus1016/OnlineJudgeFE
